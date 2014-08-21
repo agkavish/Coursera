@@ -22,7 +22,7 @@ corr <- function(directory, threshold = 0) {
             # cs <- complete.cases(d) 
             #csd <- d[cs,]
             cr <- cor(d['sulfate'], d['nitrate'], "complete.obs" )
-            #cr <- round(cr, 5)
+            #licr <- round(cr, 5)
                                       } )
 #print("printing CRD")  
 #print(crd)
